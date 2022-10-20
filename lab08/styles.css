@@ -1,0 +1,43 @@
+body {
+    background-color: #F4F4F4;
+}
+
+h1, h2 {
+    color: #594433;
+}
+
+p {
+    color: #0a0a0a;
+}
+
+a {
+   color: #9BA657; 
+}
+
+nav {
+    background-color: #A68C69;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+nav a {
+    color: #9ec995;
+}
+
+nav a:hover {
+    background-color: #124008;
+}
+
+.quote {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+.row1, .row2 {display: flex; background-color: #ede7d3; border-radius: 1em; padding: 10px; margin-bottom: 20px;}
+.address, .form {flex:1;}
+.linkedin, .map {flex: 2;}
+label {padding: 10px;}
+.form {line-height: 200%;}
+label {font-weight: bold;}
