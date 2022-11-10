@@ -1,0 +1,84 @@
+body {
+    background-color: #F4F4F4;
+    font-size: 1em;
+}
+
+h1, h2 {
+    color: #594433;
+}
+h1 {font-size: 2em;}
+h2 {font-size: 1.5em;}
+
+p {
+    color: #0a0a0a;
+}
+
+a {
+   color: #9BA657; 
+}
+
+nav {
+    background-color: #A68C69;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+nav a {
+    color: #9ec995;
+}
+
+nav a:hover {
+    background-color: #124008;
+}
+
+.quote {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+.row1, .row2 {display: flex; background-color: #ede7d3; border-radius: 1em; padding: 10px; margin-bottom: 20px;}
+.address, .form {flex:1;}
+.linkedin, .map {flex: 2;}
+label {padding: 10px;}
+.form {line-height: 200%;}
+label {font-weight: bold;}
+
+.skills {
+    display: flex;
+    justify-content: center;
+}
+.skillicon{
+    width: 100px;
+}
+.mainskills{
+    display:flex;
+    justify-content: space-between;
+}
+
+aside {
+    background-color: #ebe6d9;
+    border-radius: 1em;
+    padding: 20px;
+}
+.flexbox2 {
+    display: flex;
+}
+.skillscol1 {flex-basis: 75%;}
+.skillscol2 {flex-basis: 25%;}
+body div, body p {margin: 20px;}
+body p {width: 70%;}
+
+.banner {
+    max-width: 100%;
+}
+
+.row2 {
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 768px) {
+    nav a {display:block; padding: 10px;}
+    span {display:none}
+}
