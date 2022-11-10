@@ -14,7 +14,7 @@ p {
 }
 
 a {
-   color: #9BA657; 
+   color: #205e1a; 
 }
 
 nav {
@@ -24,11 +24,11 @@ nav {
 }
 
 nav a {
-    color: #9ec995;
+    color: #0a0a0a;
 }
 
 nav a:hover {
-    background-color: #124008;
+    background-color: #529c4c;
 }
 
 .quote {
