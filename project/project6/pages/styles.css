@@ -1,0 +1,61 @@
+body {
+    background-color: #FBFAF3;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1em;
+}
+
+.banner {display: flex; justify-content: center;}
+
+
+.search {display:flex;}
+.search{justify-content: flex-end; margin-bottom: 10px;}
+.menu{
+    background-color: #EAB69F;
+    padding: 5px;
+}
+
+.menu{text-align: center;}
+.navlink{margin: 100px;}
+
+.menu a:link {
+    color: #000000;
+}
+
+.menu a:hover {
+    background-color: #D44E28;
+    padding: 5px
+}
+
+.menu a:visited {color:#000000}
+
+.menu a, h2 {
+    font-family: 'Calistoga', cursive;
+}
+
+h2 {font-size: 2em;
+color:#704949;
+}
+.intro {padding: 10px; text-align: center;}
+
+.homeflex {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    column-gap: 200px;
+}
+
+.ingredients, .equipment {margin-bottom: 15px;}
+
+@media only screen and (max-width: 600px) {
+    .homeflex {flex-wrap: wrap;}
+    body img {max-width: 100%;}
+    .navlink {display: block; padding: 5px; margin: 5px;}
+}
+
+
+
+
+
+
+
