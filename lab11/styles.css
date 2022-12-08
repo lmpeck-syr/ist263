@@ -82,3 +82,5 @@ body p {width: 70%;}
     nav a {display:block; padding: 10px;}
     span {display:none}
 }
+h1, h2 {font-family: 'Playfair Display', serif;}
+body {font-family: 'Raleway', sans-serif;}
