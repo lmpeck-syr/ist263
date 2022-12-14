@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appliances</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Calistoga&family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" type="image/x-icon" href="../../images/favicon.ico">
+    <style>
+        #airfryer {display: block;}
+        #vitamix, #toaster {display: none;}
+    </style>
+    <script>
+        function slideshowOff () {
+            document.getElementById('airfryer').style.display = 'none';
+            document.getElementById('vitamix').style.display = 'none';
+            document.getElementById('toaster').style.display = 'none';
+        }
+
+        function airfryerOn () {document.getElementById('airfryer').style.display = 'block';}
+        function vitamixOn () {document.getElementById('vitamix').style.display = 'block';}
+        function toasterOn () {document.getElementById('toaster').style.display = 'block';}
+
+    </script>
+</head>
+<body>
+    <header>
+    <div class="banner">
+        <div><img src="../images/banner-cropped.png" alt="college foodies banner"></div>
+    </div></header>
+    <nav>
+        <div class="search">
+            <script async src="https://cse.google.com/cse.js?cx=17e0ddb28dbb1454f">
+            </script>
+            <div class="gcse-search"></div>
+        </div>
+        <div class="menu">
+            <a href="index.html" class="navlink">HOME</a>
+            <a href="recipes.html" class="navlink">RECIPES</a>
+            <a href="restaurants.html" class="navlink">RESTAURANTS</a>
+        </div>
+    </nav>
+    <a href="#content" class="skip" tabindex="1">Skip to Content</a><br>
+    <h1>Appliances</h1>
+    <p id="content">Here is a list of recommended appliances to make a kitchen run more efficiently. Colored list items have a photo example!</p>
+    <main>
+    <div class="applianceflex">
+        <div>
+            <ul class="applianceslist">
+                <li><a href="#airfryer" onclick="slideshowOff(); airfryerOn();">Air Fryer</a></li>
+                <li><a href="#vitamix" onclick="slideshowOff(); vitamixOn();">High Powered Blender</a></li>
+                <ul>
+                    <li>Vitamix is the best in my opinion, though expensive, but a simple nutri-bullet is also nice for personal sized portions</li>
+                </ul>
+                <li><a href="#toaster" onclick="slideshowOff(); toasterOn();">Toaster</a></li>
+            </ul>
+        </div>
+        <div class="applianceimage">
+            <img src="../images/airfryer.jpg" alt="Cosori Air Fryer" id="airfryer">
+            <img src="../images_sized/vitamix2.jpg" alt="Vitamix blender" id="vitamix">
+            <img src="../images_sized/toaster.jpg" alt="Toaster" id="toaster">
+        </div>
+    </div>
+    </main>
+</body>
+</html>

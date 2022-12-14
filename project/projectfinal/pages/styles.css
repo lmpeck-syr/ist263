@@ -1,0 +1,97 @@
+body {
+    background-color: #FBFAF3;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1em;
+    margin: 30px;
+}
+
+.banner {display: flex; justify-content: center;}
+
+
+.search {display:flex;}
+.search{justify-content: flex-end; margin-bottom: 10px;}
+.menu{
+    background-color: #EAB69F;
+    padding: 5px;
+}
+
+.menu{text-align: center;}
+.navlink{margin: 100px;}
+
+.menu a:link {
+    color: #000000;
+}
+
+.menu a:hover {
+    background-color: #D44E28;
+    padding: 5px
+}
+
+.menu a:visited {color:#000000}
+
+.menu a, h2, h1 {
+    font-family: 'Calistoga', cursive;
+}
+
+h2, h1 {font-size: 2em;
+color:#704949;
+}
+.intro {padding: 10px; text-align: center;}
+
+.homeflex, .recipecolumn {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    column-gap: 200px;
+}
+
+.ingredients, .equipment {margin-bottom: 15px;}
+
+.applianceslist, .ingredientslist, .equipmentlist, .restaurantslist {
+    border: solid 3px #3e2929;
+    padding: 30px;
+}
+.applianceslist a, .equipmentlist a, .ingredientslist a, .restaurantslist a {color: #ad3f21;}
+.applianceimage {padding: 50px;}
+
+.spicegallery {display: flex; padding: 20px; justify-content: space-around;}
+
+.ingredientsflex, .equipmentflex, .applianceflex {display:flex;}
+.ingredientslist, .equipmentlist, .appliancelist {flex: 1;}
+.ingredientspics, .equipmentpics, .applianceimage {flex: 2; margin-left: 250px;}
+
+.skip {
+    background-color: #81b29a;
+    color: #ffffff;
+    padding: 5px;
+    border: 1px solid black;
+    position: absolute;
+    top: 30px;
+    left: -999px;
+}
+.skip:focus {
+    left: 10px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .homeflex, .applianceflex, .ingredientsflex, .recipecolumn, .restauarantsflex, .equipmentflex, .spicegallery {flex-wrap: wrap;}
+    body img {max-width: 100%;}
+    .navlink {display: block; padding: 5px; margin: 5px;}
+    .restaurantslist {display: none;}
+    .restaurantdescs img, .restaurantdescs iframe {max-width: 100%;}
+    .spicegallery img {max-width: 100%;}
+    .clear {clear:both;}
+    .ingredientspics, .equipmentpics, .applianceimage {flex:1; margin-left: 5px;}
+    .spicelist {margin-right: 0px; border: solid 3px #3e2929; padding: 0px;}
+}
+
+
+
+
+
+
+
+

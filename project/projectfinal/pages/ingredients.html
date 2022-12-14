@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingredients</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Calistoga&family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" type="image/x-icon" href="../../images/favicon.ico">
+
+    <style>
+        #baking {display: block;}
+        #evoo, #vinegar, #rice, #pasta, #beans, #km, #hotsauce, #soysauce, #pickles, #meat {display: none;}
+
+    </style>
+
+<script>
+    function slideshowOff () {
+        document.getElementById('baking').style.display = 'none';
+        document.getElementById('evoo').style.display = 'none';
+        document.getElementById('vinegar').style.display = 'none';
+        document.getElementById('rice').style.display = 'none';
+        document.getElementById('pasta').style.display = 'none';
+        document.getElementById('beans').style.display = 'none';
+        document.getElementById('km').style.display = 'none';
+        document.getElementById('hotsauce').style.display = 'none';
+        document.getElementById('soysauce').style.display = 'none';
+        document.getElementById('pickles').style.display = 'none';
+        document.getElementById('meat').style.display = 'none';
+    }
+
+    function bakingOn () {document.getElementById('baking').style.display = 'block';}
+    function evooOn () {document.getElementById('evoo').style.display = 'block';}
+    function vinegarOn () {document.getElementById('vinegar').style.display = 'block';}
+    function riceOn () {document.getElementById('rice').style.display = 'block';}
+    function pastaOn () {document.getElementById('pasta').style.display = 'block';}
+    function beansOn () {document.getElementById('beans').style.display = 'block';}
+    function kmOn () {document.getElementById('km').style.display = 'block';}
+    function hotsauceOn () {document.getElementById('hotsauce').style.display = 'block';}
+    function soysauceOn () {document.getElementById('soysauce').style.display = 'block';}
+    function picklesOn () {document.getElementById('pickles').style.display = 'block';}
+    function meatOn () {document.getElementById('meat').style.display = 'block';}
+
+</script>
+
+</head>
+<body>
+    <header>
+    <div class="banner">
+        <div><img src="../images/banner-cropped.png" alt="college foodies banner"></div>
+    </div></header>
+    <nav>
+        <div class="search">
+            <script async src="https://cse.google.com/cse.js?cx=17e0ddb28dbb1454f">
+            </script>
+            <div class="gcse-search"></div>
+        </div>
+        <div class="menu">
+            <a href="index.html" class="navlink">HOME</a>
+            <a href="recipes.html" class="navlink">RECIPES</a>
+            <a href="restaurants.html" class="navlink">RESTAURANTS</a>
+        </div>
+    </nav>
+    <a href="#content" class="skip" tabindex="1">Skip to Content</a><br>
+    <h1 id="content">Ingredients</h1>
+
+    <p>Here is a list of key ingredients that you should always have on hand. The colored items have a photo example!</p>
+    <main>
+    <div class="ingredientsflex">
+        <div class="ingredientslist">
+            <ul>
+                <li><a href="#baking" onclick="slidshowOff (); bakingOn"><strong>Baking Supplies</strong></a></li>
+                <ul>
+                    <li>All-purpose flour</li>
+                    <li>Granulated sugar</li>
+                    <li>Baking soda</li>
+                    <li>Baking powder</li>
+                    <li>Brown sugar</li>
+                </ul>
+                <li><a href="#evoo" onclick="slideshowOff(); evooOn ();">Extra virgin olive oil (EVOO)</a></li>
+                <li>Vegetable oil</li>
+                <li>Apple cider vinegar</li>
+                <li><a href="#vinegar" onclick="slideshowOff(); vinegarOn();">Balsamic vinegar</a></li>
+                <li>Honey</li>
+                <li><a href="#rice" onclick="slideshowOff(); riceOn();">Rice (white or brown)</a></li>
+                <li><a href="#pasta" onclick="slideshowOff(); pastaOn();">Pasta (any shape you like)</a></li>
+                <li>Chicken broth</li>
+                <li><a href="#beans" onclick="slideshowOff(); beansOn();">Beans</a></li>
+                <ul>
+                    <li>Whatever you like, I always have chickpeas and black beans</li>
+                </ul>
+                <li>Peanut butter (sub any alternative if allergic)</li>
+                <li>Milk</li>
+                <li>Unsalted butter</li>
+                <li>Eggs</li>
+                <li>Jelly/jam</li>
+                <li><a href="#km" onclick="slideshowOff (); kmOn();">Ketchup</a></li>
+                <li>Mayonnaise</li>
+                <li><a href="#km" onclick="slideshowOff (); kmOn();">Mustard</a></li>
+                <li><a href="#hotsauce" onclick="slideshowOff (); hotsauceOn();">Hot sauce (my favorite is sriracha)</a></li>
+                <li><a href="#soysauce" onclick="slideshowOff (); soysauceOn();">Soy sauce</a></li>
+                <li><a href="#pickles" onclick="slideshowOff (); picklesOn();">Pickles</a></li>
+                <li>Frozen fruit</li>
+                <li><a href="#meat" onclick="slideshowOff (); meatOn();">Frozen meat (buy fresh, put in freezer until ready to use)</a></li>
+            </ul> 
+        </div>
+        <div class="ingredientspics">
+            <img src= "../images_sized/baking.png" alt="baking supplies" id="baking">
+            <img src= "../images_sized/oliveoil.jpg" alt="olive oil in small bowl" id="evoo">
+            <img src= "../images_sized/vinegar.jpg" alt="vinegar" id="vinegar">
+            <img src= "../images_sized/rice.jpg" alt="white rice close up" id="rice">
+            <img src= "../images_sized/pasta.jpg" alt="close up of pasta" id="pasta">
+            <img src= "../images_sized/chickpeas.jpg" alt="canned and dried chickpeas" id="beans">
+            <img src= "../images/ketchup-and-mustard.png" alt="clip art of ketchup and mustard bottles" id="km">
+            <img src= "../images_sized/hotsauce.png" alt="clip art of sriracha" id="hotsauce">
+            <img src= "../images_sized/soysauce.png" alt="clip art of soy sauce" id="soysauce">
+            <img src= "../images_sized/pickles.jpg" alt="clip art of pickles" id="pickles">
+            <img src= "../images_sized/chicken.jpg" alt="great value chicken" id="meat">
+        </div>
+    </div>
+    </main>
+</body>
+</html>
