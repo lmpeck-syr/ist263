@@ -63,7 +63,7 @@ color:#704949;
 
 .skip {
     background-color: #81b29a;
-    color: #ffffff;
+    color: #000000;
     padding: 5px;
     border: 1px solid black;
     position: absolute;
@@ -73,6 +73,15 @@ color:#704949;
 .skip:focus {
     left: 10px;
 }
+
+.btn {
+    border: none;
+    background-color: #81b29a;
+    color:#000000;
+    padding: 10px 30px;
+    font-size: 20px;
+}
+
 
 
 
