@@ -52,7 +52,7 @@ color:#704949;
     border: solid 3px #3e2929;
     padding: 30px;
 }
-.applianceslist a, .equipmentlist a, .ingredientslist a, .restaurantslist a {color: #ad3f21;}
+.applianceslist a, .equipmentlist a, .ingredientslist a, .restaurantslist a, .restaurantdescs a {color: #ad3f21;}
 .applianceimage {padding: 50px;}
 
 .spicegallery {display: flex; padding: 20px; justify-content: space-around;}
